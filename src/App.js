@@ -16,11 +16,11 @@ const App = () => (
       <Header />
       <div className="app-body">
         <Routes>
-          <Route exact path="/" component={<BlogList/>} />
-          <Route exact path="/about" component={<About/>} />
-          <Route exact path="/contact" component={<Contact/>} />
-          <Route exact path="/blogs/:id" component={<BlogItemDetails/>} />
-          <Route component={<NotFound/>} />
+          <Route exact path="/" element={<BlogList/>} />
+          <Route exact path="/about" element={<About/>} />
+          <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/blogs/:id" element={<BlogItemDetails/>} />
+          <Route element={<NotFound/>} />
         </Routes>
       </div>
     </div>

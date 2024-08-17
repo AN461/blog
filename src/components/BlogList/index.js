@@ -10,7 +10,7 @@ import './index.css'
 
 class BlogList extends Component {
   state = {
-    isLoading: true,
+    isLoading: false,
     blogsData: [],
   }
 
@@ -21,7 +21,7 @@ class BlogList extends Component {
   getBlogsData = async () => {
     const response = await fetch('https://apis.ccbp.in/blogs')
     const data = await response.json()
-
+    console.log(response)
     const updatedData = data.map(eachItem => ({
       id: eachItem.id,
       title: eachItem.title,
