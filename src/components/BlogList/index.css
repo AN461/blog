@@ -1,0 +1,8 @@
+.blogList-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  min-height: 100vh;
+  max-width: 100vw;
+}

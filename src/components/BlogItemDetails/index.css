@@ -1,0 +1,27 @@
+.blog-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 50vw;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .author-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .author-pic {
+    height: 30px;
+    border-radius: 50%;
+  }
+  .blog-image {
+    height: 200px;
+  }
+  .details-author-name {
+    color: #2f4f4f;
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,17 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .userImage {
+    height: 90px;
+  }
+  .user-container h1 {
+    color: #12022f;
+  }
+  .user-container p {
+    color: #9aa5b1;
+  }
+  
