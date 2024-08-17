@@ -1,5 +1,5 @@
 import './index.css'
-
+import React from 'react'
 import UserInfo from '../UserInfo'
 import BlogList from '../BlogList'
 
